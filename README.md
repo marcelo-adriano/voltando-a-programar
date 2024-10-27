@@ -23,11 +23,29 @@ Já que eu paguei mais de 40 mil reais num curso, resolvi relembrar tudo que apr
 - **Testes em JS**: Criação de testes unitários e de integração.
 - **Exceções**: Tratamento de erros com try, catch e finally.
 - **Manipulação de Array**: Métodos úteis como `map`, `filter`, `sort`, `find`, `forEach` e `reduce`.
+- **Assíncroniscidade**: Entendendo o que são `Promises`, o que é `fetch`, `async` e `await` e teste assíncronos.
 
 ### 2. Front-end com React
-- **React**: Componentização, estado, ciclo de vida e hooks.
-- **React Router**: Rotas para navegação em SPAs.
-- **Boas Práticas**: Estrutura de pastas, props, gerenciamento de estado e organização de componentes.
+#### 2.1. **Typescript**: Integração do TypeScript com React para tipagem estática e maior segurança de código.
+- **TSX**: Estruturação de componentes utilizando a extenção `TSX`.
+#### 2.2. **React**: Componentização, estado, ciclo de vida e hooks.
+- **Componentes e Props**: Criação de componentes funcionais e passagem de propriedades.
+- **Ciclo de Vida**: Entendendo o ciclo de funcionamento do React.
+- **Event Handlers**: Manipulação de eventos de interação do usuário.
+- **Estados e eventos**: Uso de `useState` e manipulação de eventos.
+- **Formulários**: Controle de formulários com `useState` e validação.
+#### 2.3. **React Router**: Rotas para navegação em SPAs.
+- **Criando e Navegando Rotas**: Configuração de rotas e navegação.
+- **Menus de navegação**: Configuração de menus de navegação para uma boa UX.
+- **Outlet**: Renderização condicional de componentes filhos.
+- **useLocation**: Acessar dados da rota atual.
+- **useEffect**: Gerenciamento de efeitos colaterais relacionados à navegação.
+- **React Testing Library**: Testes de componentes e rotas para garantir a funcionalidade.
+- **Redux**: Gerenciamento de estado global em aplicações React.
+#### 2.4. **Classes, Context API e Custom Hooks**
+- **Classes**: Uso de componentes baseados em classe e ciclo de vida.
+- **Context API**: Compartilhamento de estado global sem necessidade de prop drilling.
+- **Custom Hooks**: Criação de hooks personalizados para lógica reutilizável.
 
 ### 3. Back-end com Node.js e SQL
 - **Node.js**: Fundamentos de servidores e APIs REST.
