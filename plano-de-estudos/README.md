@@ -23,6 +23,8 @@ Este diretório é o **mapa completo** dos estudos. O `README.md` da raiz diz *o
 
 \* Estimativas para **10–12 horas por semana**. Com 20 h/semana, divida por quase dois. Com 5 h/semana, multiplique por dois. O importante é a constância, não a velocidade.
 
+**Projetos da Trybe:** a análise dos 40 projetos que entreguei na turma sd-015-a está em [projetos-trybe.md](./projetos-trybe.md). Cada projeto aparece ligado ao módulo do plano que ele cobre, com uma prioridade para refazer (🔴 🟡 🟢). Quando chegar a um módulo, confira se há um projeto da Trybe relacionado a ele.
+
 ---
 
 ## 1. Como cada trilha está organizada
