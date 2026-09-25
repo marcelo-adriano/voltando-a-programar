@@ -1,0 +1,11 @@
+# Tudo o que os scripts geram fica fora do Git: são dados de repositórios privados da tryber
+# (código, avaliações e comentários de outras pessoas) e este repositório é público.
+repos.txt
+prs.tsv
+prs.json
+summary.json
+failed.txt
+*.log
+mirrors/
+feedback/
+__pycache__/
