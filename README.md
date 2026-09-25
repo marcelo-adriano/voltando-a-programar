@@ -4,6 +4,12 @@ Já que eu paguei mais de 40 mil reais no curso de Ratanabá, resolvi relembrar 
 
 ---
 
+## Plano de Estudos Detalhado
+
+O plano completo (metodologia, cronograma, fontes, exercícios, autoavaliações e projetos de cada trilha) está em [`plano-de-estudos/`](./plano-de-estudos/README.md). Além das 4 fases abaixo, ele inclui **Fundamentos** (Linux, Git, redes), **Arquitetura de Software**, **DevOps**, **Cibersegurança** (a detalhar) e os planos dos futuros repositórios de **certificações Zabbix** e **Cisco**.
+
+---
+
 ## Estrutura do Projeto
 
 ### 1. Básico de Desenvolvimento Web
