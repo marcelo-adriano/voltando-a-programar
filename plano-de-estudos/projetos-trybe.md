@@ -312,9 +312,9 @@ PRs mergeados na branch do grupo: [#10](https://github.com/tryber/sd-015-a-proje
 [PR #89](https://github.com/tryber/sd-015-a-project-car-shop/pull/89) · aberto · **Módulos 3.13 (MongoDB/Mongoose) e 3.12 (testes); a arquitetura é assunto de 5.4** · **Insuficiente, 11/26** (11 avaliações) · 🔴
 
 - ✅ **A melhor arquitetura entre os projetos:** `MongoModel<T>`, `Service<T>` e `Controller<T>` genéricos e abstratos, validação com **Zod** (`VehicleSchema.extend`), roteador genérico (`CustomRouter<T>`), injeção de dependência pelo construtor e cerca de 450 linhas de testes cobrindo as três camadas.
-- 🔁 **Provável causa da nota:** a conexão ficou fixa em `mongodb://mongodb:27017/CarShop` (nome do container do Docker; a linha com `localhost` está comentada). Com isso, **todas as rotas de carros falharam no avaliador**, mesmo implementadas. Use `process.env.MONGO_URI`.
+- 🔁 **Todas as rotas de carros falharam no avaliador** (requisitos 4, 8, 9, 13 e 17), mesmo implementadas, enquanto os testes de cobertura de 15% a 60% passaram. A causa não aparece no código: a conexão lê `process.env.MONGO_URI` e só usa `mongodb://mongodb:27017/CarShop` (nome do container do Docker) como reserva. Se o avaliador rodou sem essa variável e fora do Docker, a conexão falhou, mas isso não está confirmado. Ao refazer, rode os testes da Trybe localmente para ver o erro real antes de mexer no código.
 - 🔁 Motos não implementadas (requisitos 18 a 26). A validação de id só testa `id.length < 24` (use `isValidObjectId`). O ano máximo está fixo em `2022`.
-- 🔁 **Refazer como:** corrigir a conexão, terminar as motos e bater os 90% de cobertura. É o projeto com melhor custo-benefício para refazer, porque a base já é boa.
+- 🔁 **Refazer como:** descobrir por que as rotas de carros falharam, terminar as motos e bater os 90% de cobertura. É o projeto com melhor custo-benefício para refazer, porque a base já é boa.
 
 ### Trybe Futebol Clube
 [PR #146](https://github.com/tryber/sd-015-a-trybe-futebol-clube/pull/146) · aberto · **Módulo 3.14 (projeto final: TypeScript, Sequelize, JWT, Docker Compose, testes)** · Suficiente, 32/35 (**27 avaliações**; recuperação) · 🔴
@@ -375,7 +375,7 @@ Na ordem das trilhas do plano, para refazer quando chegar em cada módulo:
 1. **Trilha 1 · módulo 1.15:** To Do List → Projeto A (estado em array, testes, acessibilidade). Refazer os testes do **Jest** com `await` antes disso (1.14).
 2. **Trilha 2 · módulo 2.11:** Trybewallet em Redux Toolkit + TypeScript (bugs de id) e, depois, o Projeto 2.11. **Módulo 2.10:** testes das telas do Recipes App que foram suas.
 3. **Trilha 2 · módulos 2.1–2.2:** terminar o Trybers and Dragons em TypeScript `strict`, sem os `describe.skip`.
-4. **Trilha 3 · módulos 3.12–3.13:** Car Shop (conexão por variável de ambiente, motos e cobertura). A base já é boa, então rende muito para pouco esforço.
+4. **Trilha 3 · módulos 3.12–3.13:** Car Shop (descobrir por que as rotas de carros falharam, fazer as motos e bater a cobertura). A base já é boa, então rende muito para pouco esforço.
 5. **Trilha 3 · módulo 3.11:** consertar a autenticação do TFC (payload do token, `try/catch`, rotas protegidas) e do Blogs API (bcrypt).
 6. **Trilha 3 · módulo 3.14:** Store Manager + TrybeSmith + Blogs API → **API da loja virtual** (Projeto A), com transações, Zod e testes de integração.
 7. **Trilha 4:** Algorithms → E4.11.2; TING → E4.10.3; Tech News → P4.4.8; Inventory Report como referência de padrões para o módulo 4.8.
