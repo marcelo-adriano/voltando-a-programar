@@ -216,8 +216,8 @@ voltando-a-programar/
 
 Você já usa branches e PRs (`planejamento`, `iniciando-o-html`). Continue assim, porque isso também é treino:
 
-1. Uma **issue** por módulo (ex.: "Módulo 1.3 — CSS fundamentos"), com a checklist de exercícios.
-2. Um **GitHub Project** (quadro Kanban) com colunas `A fazer / Estudando / Revisão / Feito`.
+1. Uma **issue** por módulo (ex.: "Módulo 1.3 — CSS fundamentos"), com a checklist de exercícios. As das trilhas 0 e 1 já existem: [issues com a etiqueta `trilha-0`](https://github.com/marcelo-adriano/voltando-a-programar/issues?q=label%3Atrilha-0) e [`trilha-1`](https://github.com/marcelo-adriano/voltando-a-programar/issues?q=label%3Atrilha-1), agrupadas nos marcos [Trilha 0](https://github.com/marcelo-adriano/voltando-a-programar/milestone/1) e [Trilha 1](https://github.com/marcelo-adriano/voltando-a-programar/milestone/2).
+2. Um **GitHub Project** (quadro Kanban) com colunas `A fazer / Estudando / Revisão / Feito`: o [quadro Voltando a Programar](https://github.com/users/marcelo-adriano/projects/1).
 3. Uma **branch** por módulo: `modulo/1.3-css`.
 4. Commits pequenos seguindo [Conventional Commits](https://www.conventionalcommits.org/pt-br/): `feat(css): exercício 04 de flexbox`.
 5. **PR** ao terminar o módulo. Descreva o que aprendeu e o que teve dificuldade (isso vira diário de bordo).
